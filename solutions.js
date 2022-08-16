@@ -24,3 +24,13 @@
 function isTrue(input){
     return input === true;
 }
+
+//function #2
+function isFalse(input) {
+    return input === false;
+}
+
+//function #3
+function not(input){
+    return input
+}
