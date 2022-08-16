@@ -32,5 +32,56 @@ function isFalse(input) {
 
 //function #3
 function not(input){
-    return input
+    return !input;
+}
+
+//function #4
+function addOne(input) {
+    if (input === Infinity) {
+        return Infinity;
+    } else {
+        return parseInt(input) + 1;
+    }
+}
+
+//function #5
+function isEven(input) {
+    if (input === false) {
+        return false;
+    } else {
+        return input % 2 === 0;
+    }
+}
+
+//function #6
+function isIdentical(input, input2){
+    if (input === input2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//function #7
+function isEqual(input1, input2){
+    if (input1 == input2){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//function #8
+function or(input1, input2){
+    return input1 || input2;
+}
+
+//function #9
+function and(input1, input2){
+    return input1 && input2;
+}
+
+//function #10
+function concat(input1, input2) {
+    return input1.toString() + input2.toString();
 }
