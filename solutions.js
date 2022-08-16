@@ -20,3 +20,7 @@
  * and
  * concat
  */
+// function #1
+function isTrue(input){
+    return input === true;
+}
